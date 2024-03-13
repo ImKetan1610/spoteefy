@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+
+/* font-family: "Varela Round", sans-serif; */
+/* font-family: "Pacifico", cursive; */
+
+body {
+  background-color: antiquewhite;
+  font-family: "Varela Round", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Pacifico", cursive;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  padding: 0 8px;
+  font-size: 1.3rem;
+}
+
+.brand img {
+  width: 40px;
+}
+
+.container {
+  min-height: 75vh;
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+}
